@@ -90,7 +90,6 @@ hk_py_library(
         ":analytics",
         ":transform",
         ":typing",
-        # pip: dataclasses
         # pip: jax
     ],
 )
@@ -156,7 +155,6 @@ hk_py_test(
         ":transform",
         # pip: absl/testing:absltest
         # pip: absl/testing:parameterized
-        # pip: dataclasses
         # pip: jax
         # pip: typing_extensions
     ],
@@ -582,7 +580,6 @@ hk_py_library(
         ":module",
         ":transform",
         ":utils",
-        # pip: dataclasses
         # pip: jax
         # pip: numpy
         # pip: tabulate
